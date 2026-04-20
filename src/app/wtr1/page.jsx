@@ -7,6 +7,7 @@ const WTR1Page = () => {
   const toggle = (section) => {
     setOpenSection(openSection === section ? null : section);
   };
+  const [zoomed, setZoomed] = useState(false);
 
   const sections = [
     {
@@ -64,9 +65,10 @@ const WTR1Page = () => {
               <p>"Successfully achieved most goals",</p>
               <p>"Developed strong understanding of enterprise IT systems",</p>
               <p>"Improved ability to analyze and document complex workflows",</p>
-              <p>"Strengthened professionalism — more organized, proactive, and accountable",</p>
+              <p>"Strengthened professionalism; more organized, proactive, and accountable",</p>
+              <p>"Improved research skills and learned to evaluate credible sources",</p>
               <p>"Made significant progress in both written and verbal communication",</p>
-              <p>"Verbal communication required continued growth — improved steadily with feedback"</p>
+              <p>"Verbal communication required continued growth"</p>
             </div>
             <p className="text-blue-600 font-mono">]</p>
           </div>
@@ -127,7 +129,6 @@ const WTR1Page = () => {
               <p>"Research",</p>
               <p>"Enterprise Architecture Concepts",</p>
               <p>"Data Visualization",</p>
-              <p>"Structured Documentation Practices"</p>
             </div>
             <p className="text-blue-600 font-mono">],</p>
           </div>
@@ -155,7 +156,7 @@ const WTR1Page = () => {
         <div className="ml-4 text-base text-gray-700 space-y-2">
           <p>"This work term significantly changed how I view software development.",</p>
           <p>"Previously, I focused primarily on building applications. At CIHI, I learned that designing systems at scale requires careful planning, documentation, and alignment with business goals.",</p>
-          <p>"I also gained a deeper appreciation for collaboration — enterprise architecture is not only technical; it involves understanding people, processes, and long-term strategy.",</p>
+          <p>"I also gained a deeper appreciation for collaboration; I learnt enterprise architecture is technical and also involves understanding people, processes, and long-term strategy.",</p>
           <p>"This experience has influenced my future goals by encouraging me to build systems that are not only functional, but also scalable, maintainable, and aligned with user needs."</p>
         </div>
       )
@@ -224,11 +225,15 @@ const WTR1Page = () => {
             <div className="sticky top-8">
               <div className="bg-transparent p-3 shadow-lg mb-4 transform rotate-2 relative font-mono">
                 <div className="text-green-400 text-base mb-1">// Team Image</div>
-               <img
-  className="w-full border-2 border-green-500 h-65"
-  src="team-img.png"
-  alt="Team"
-/>
+{/* Clickable image */}
+      <img
+        className="w-full border-2 border-green-500  hover:opacity-90 transition-opacity"
+        src="team-img.png"
+        alt="Team"
+       
+      />
+
+      
                 <div className="text-green-400 text-base mt-1">return workTermReport.photo;</div>
               </div>
               <div className="bg-transparent text-green-400 p-3 rounded mb-4 font-mono text-sm shadow-lg">
@@ -328,7 +333,7 @@ const WTR1Page = () => {
           <div className="text-gray-500">{"/* TODO:"}</div>
           <div className="text-gray-700 my-2">
             Back to portfolio?<br />
-            <a href="/" className="text-blue-600 underline">return home;</a>
+            <a href="/" className="text-blue-600 underline">return home</a>
           </div>
           <div className="text-gray-500">{"*/"}</div>
         </div>
