@@ -88,7 +88,7 @@ const WTR1Page = () => {
             <div className="ml-4 space-y-1">
               <p>"Creating and maintaining technical documentation",</p>
               <p>"Supporting architecture diagrams and system models",</p>
-              <p>"Collaborating with team members to understand system dependencies",</p>
+              <p>"Collaborating with team members",</p>
               <p>"Visualizing IT data using tools such as Excel and Qlik",</p>
               <p>"Extracting and analyzing data from AWS databases"</p>
             </div>
@@ -98,7 +98,7 @@ const WTR1Page = () => {
             <p className="text-blue-600 font-mono font-semibold mb-1">keyProject: {"{"}</p>
             <div className="ml-4 space-y-1">
               <p><span className="text-blue-600">name:</span> "Python-based XMI Transformation Script",</p>
-              <p><span className="text-blue-600">description:</span> "Converted data models from XMI 2.5.1 to XMI 1.1, automating a previously manual process",</p>
+              <p><span className="text-blue-600">description:</span> "Converted data models from XMI 2.5.1 to XMI 1.1, supporting automation",</p>
               <p><span className="text-blue-600">details:</span> [</p>
               <div className="ml-4 space-y-1">
                 <p>"Extracted tables, columns, and relationships from XML files",</p>
@@ -187,10 +187,10 @@ const WTR1Page = () => {
           <div className="mt-2">
             <p className="text-blue-600 font-mono font-semibold mb-1">specialThanks: {"{"}</p>
             <div className="ml-4 space-y-1">
-              <p><span className="text-blue-600">supervisor:</span> "Emerald — mentorship and feedback",</p>
-              <p><span className="text-blue-600">projectSupport:</span> "Anatoly & Aleksandr — transformation script project and insights",</p>
-              <p><span className="text-blue-600">technicalAssist:</span> "Geovanni — ERwin import requests",</p>
-              <p><span className="text-blue-600">teamEnvironment:</span> "Mia, Jin Yin Chen, Radu & Malina — welcoming team, memorable team lunch"</p>
+              <p><span className="text-blue-600">supervisor:</span> "Emerald for her mentorship and valuable feedback",</p>
+              <p><span className="text-blue-600">projectSupport:</span> "Anatoly & Aleksandr for supporting me in the transformation script project",</p>
+              <p><span className="text-blue-600">technicalAssist:</span> "Geovanni for his assist with my ERwin import requests",</p>
+              <p><span className="text-blue-600">teamEnvironment:</span> "Mia, Jin Yin Chen, Radu & Malina for being welcoming and for a memorable team lunch"</p>
             </div>
             <p className="text-blue-600 font-mono">{"}"}</p>
           </div>
