@@ -118,10 +118,8 @@ const KennyPortfolio = () => {
         <p><span className="text-blue-600">company:</span> <span className="text-green-600">"University of Guelph - College of Engineering"</span>,</p>
         <p><span className="text-blue-600">role:</span> [</p>
         <div className="ml-4 text-base text-gray-700 space-y-1">
-          <p>"Modeled VLC systems for precision agriculture using MATLAB and Python",</p>
-          <p>"Designed algorithms for resource allocation and positioning",</p>
-          <p>"Performed simulation analysis and documented findings in reports and presentations",</p>
-          <p>"Collaborated with a research team on ongoing projects"</p>
+          <p>" Modeled visible light communication (VLC) systems for precision agriculture using MATLAB/Python.",</p>
+          <p>"Collaborated with a research team on ongoing projects.",</p>
         </div>
         <p>]</p>
       </div>
@@ -137,9 +135,9 @@ const KennyPortfolio = () => {
         <p><span className="text-blue-600">company:</span> <span className="text-green-600">"CIHI"</span>,</p>
         <p><span className="text-blue-600">role:</span> [</p>
         <div className="ml-4 text-base text-gray-700 space-y-1">
-          <p>"Visualized and analyzed enterprise IT resources",</p>
-          <p>"Monitored PHI access and logging capabilities",</p>
-          <p>"Supported enterprise architecture operations and documentation"</p>
+          <p>"Extracted and analyzed data from AWS databases using Excel.",</p>
+          <p>"Automated conversion of data models from XMI 2.5.1 to XMI 1.1 using Python.",</p>
+          <p>"Assisted in developing and updating enterprise architecture diagrams."</p>
         </div>
         <p>],</p>
         <span className="text-blue-600">report:</span> <Link href='/wtr1'><span className="text-green-600">"click me"</span></Link>,
@@ -158,6 +156,7 @@ const KennyPortfolio = () => {
         <div className="ml-4 text-base text-gray-700 space-y-1">
           <p>"Developed AI applications in an agile team environment",</p>
           <p>"Built Flutter frontends for cross-platform deployment"</p>
+          <p>"Cut upload process time by 50% by implementing async handling"</p>
         </div>
         <p>]</p>
       </div>

@@ -87,7 +87,7 @@ const WTR1Page = () => {
             <p className="text-blue-600 font-mono font-semibold mb-1">responsibilities: [</p>
             <div className="ml-4 space-y-1">
               <p>"Creating and maintaining technical documentation",</p>
-              <p>"Supporting architecture diagrams and system models",</p>
+              <p>"Supporting creation of architecture diagrams",</p>
               <p>"Collaborating with team members",</p>
               <p>"Visualizing IT data using tools such as Excel and Qlik",</p>
               <p>"Extracting and analyzing data from AWS databases"</p>
@@ -190,7 +190,7 @@ const WTR1Page = () => {
               <p><span className="text-blue-600">supervisor:</span> "Emerald for her mentorship and valuable feedback",</p>
               <p><span className="text-blue-600">projectSupport:</span> "Anatoly & Aleksandr for supporting me in the transformation script project",</p>
               <p><span className="text-blue-600">technicalAssist:</span> "Geovanni for his assist with my ERwin import requests",</p>
-              <p><span className="text-blue-600">teamEnvironment:</span> "Mia, Jin Yin Chen, Radu & Malina for being welcoming and for a memorable team lunch"</p>
+              <p><span className="text-blue-600">teamEnvironment:</span> "Mia, Jin Yin, Radu & Malina for being welcoming and for a memorable team lunch"</p>
             </div>
             <p className="text-blue-600 font-mono">{"}"}</p>
           </div>
